@@ -15,6 +15,13 @@ app.get("/api/config", (req, res) => {
     });
   });
 
+  
+app.use(express.static("client/public"));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "/client/public/index.html"));
+});
+
   app.listen(PORT, () => {
     console.log(`App is running on http://localhost:${PORT}`);
   });
