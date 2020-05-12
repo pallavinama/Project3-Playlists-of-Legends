@@ -1,7 +1,5 @@
 # Project3-Playlists-of-Legends
-
-List of champs and genre 
-Aatrox = metal
+List of champs and genre Aatrox = metal
 
 Ahri = k-pop
 
@@ -13,11 +11,11 @@ Amumu = blues
 
 Anivia = R&B
 
-Annie = nursery rhymes 
+Annie = nursery rhymes
 
 Ashe = rap
 
-Aurelion Sol = space ambient 
+Aurelion Sol = space ambient
 
 Azir = pop
 
@@ -49,7 +47,7 @@ Draven = Metal
 
 Ekko = disco
 
-Elise = dark minimal techno 
+Elise = dark minimal techno
 
 Evelynn = dark minimal techno
 
@@ -89,7 +87,7 @@ Jarvan IV = Classic rock
 
 Jax = metal
 
-Jayce = techno 
+Jayce = techno
 
 Jhin = rap
 
@@ -115,13 +113,13 @@ Kennen = Pop
 
 Kha'Zix = vapor trap
 
-Kindred = opera 
+Kindred = opera
 
 Kled = metal
 
 Kog'Maw = Dance
 
-LeBlanc =hard rock
+LeBlanc = hard rock
 
 Lee Sin = gregorian chants (playlist)
 
@@ -173,7 +171,7 @@ Pantheon = instrumental death metal
 
 Poppy = metal
 
-Pyke = grunge 
+Pyke = grunge
 
 Qiyana = rock
 
@@ -207,33 +205,33 @@ Singed = melodic rap
 
 Sion = metal
 
-Sivir
+Sivir = glam rock
 
-Skarner
+Skarner = psychedelic rock
 
-Sona = country
+Sona = EDM
 
 Soraka = country
 
 Swain = modern rock
 
-Sylas = pop rock
+Sylas = alt metal
 
 Syndra = electropop
 
 Tahm Kench = country rock
 
-Taliyah = nu metal
+Taliyah = soft rock
 
-Talon = psychedelic rock
+Talon = alt emo
 
 Taric = R&B
 
-Teemo = elctro house
+Teemo = electro house
 
 Thresh = country rock
 
-Tristana = southern hiphop
+Tristana = power pop
 
 Trundle = garage rock
 
@@ -243,52 +241,83 @@ Twisted Fate = Smooth jazz
 
 Twitch = Rap metal
 
-Udyr = blues rock
+Udyr = Afrobeat
 
-Urgot = 
+Urgot = Industrial Metal
 
-Varus  = pop edm
+Varus = pop edm
 
 Vayne = hip hop
 
-Veigar = electrp pop
+Veigar = electro pop
 
 Vel'Koz = electro pop
 
-Vi = post-grunge
+Vi - Punk Rock
 
-Viktor = dubstep
+Viktor - Electro-Industrial
 
-Vladimir = 
+Vladamir - Dark Ambient
 
-Volibear = hard rock
+Volibear - Celtic Metal
 
-Warwick = rock
+Warwick = Industrial Metal
 
-Wukong
+Wukong = Comedy
 
-Xayah
+Xayah = Pop Punk
 
-Xerath
+Xerath = Electropunk
 
-Xin Zhao
+Xin Zhao = Chinese Rock
 
-Yasuo
+Yasuo = J-Rock
 
-Yorick
+Yorick = Doom Metal
 
-Yuumi = country road
+Yuumi = Teen Pop
 
-Zac = 
+Zac = Future House
 
-Zed = gangster rap
+Zed = Anime Rock
 
-Ziggs = dance music
+Ziggs = Industrial Techno
 
-Zilean = disco
+Zilean = EDM / Prog Trance
 
-Zoe = dance music
+Zoe - Bubblegum Pop
 
-Zyra
+Zyra = Dance Pop
 
 There you go. Enjoy!
+
+Zyra - Dance Pop / R&B / Pop Punk
+Zoe - Bubblegum Pop
+Zilean - EDM / Prog Trance
+Ziggs - Industrial Rock / Industrial Techno
+Zed - J-Rock / Anime
+Zac - Future House
+Yuumi - Teen Pop
+Yorick - Doom Metal
+Yasuo - J-Rock / Traditional Asian / Anime
+Xin Zhao - Chinese Rock / Anime
+Xerath - Electropunk
+Xayah - Pop Punk
+Wukong - Comedy
+Warwick - Industial Metal
+Volibear - Celtic Metal
+Vladamir - Dark Ambient
+Viktor - Electro-Industrial
+Vi - Punk Rock
+Vel'Koz - Spacewave
+Veigar - Dark Wave
+Vayne - Gothic Rock
+Varus - Europop
+Urgot - Industrial Metal
+Udyr - Afrobeat
+Twitch - Acid Trance/House/Rock
+Twitsted Fate - Psychedelic pop
+Tyndamere - Alternative Metal
+Trundle - Garage Rock
+Tristana - Power Pop
+Thresh - Industrial Metal
