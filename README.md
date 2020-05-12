@@ -45,7 +45,7 @@ Dr. Mundo = Rock
 
 Draven = Metal
 
-Ekko = disco
+Ekko = rap
 
 Elise = dark minimal techno
 
@@ -161,7 +161,7 @@ Nocturne = reggaeton
 
 Nunu & Willump = EDM
 
-Olaf = german rock
+Olaf = viking metal
 
 Orianna = disco house
 
@@ -205,7 +205,7 @@ Singed = melodic rap
 
 Sion = metal
 
-Sivir = glam rock
+Sivir = desert rock
 
 Skarner = psychedelic rock
 
@@ -225,7 +225,7 @@ Taliyah = soft rock
 
 Talon = alt emo
 
-Taric = R&B
+Taric = Glam Rock
 
 Teemo = electro house
 
@@ -235,7 +235,7 @@ Tristana = power pop
 
 Trundle = garage rock
 
-Tryndamere = Rock
+Tryndamere = Alt Metal
 
 Twisted Fate = Smooth jazz
 
@@ -245,7 +245,7 @@ Udyr = Afrobeat
 
 Urgot = Industrial Metal
 
-Varus = pop edm
+Varus = Europop
 
 Vayne = hip hop
 
