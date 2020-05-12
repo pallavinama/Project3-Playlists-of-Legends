@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Navbar = () => {
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="/">
           Playlist of Legends
         </a>
