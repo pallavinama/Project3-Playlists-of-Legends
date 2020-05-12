@@ -1,6 +1,6 @@
 require("dotenv").config();
 const express = require("express");
-// const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const routes = require("./routes");
 // const path = require("path");
 const PORT = process.env.PORT || 3001;
@@ -18,10 +18,10 @@ if (process.env.NODE_ENV === "production") {
 // Define API routes here
 app.use(routes);
 
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/playlistoflegends", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/playlistoflegends", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API Server listening on http://localhost:${PORT}`);
