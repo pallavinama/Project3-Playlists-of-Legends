@@ -4,7 +4,7 @@ import axios from "axios";
 function loginButton() {
   const my_client_id = "d1c5c07ebd804b5b8667bb33ae85efd7";
   const scopes = null;
-  const redirect_uri = "http://localhost:3000/";
+  const redirect_uri = "http://localhost:3000/spotify";
 
   const link =
     "https://accounts.spotify.com/authorize" +
@@ -18,7 +18,7 @@ function loginButton() {
   const spotifyLogin = () => {
     const my_client_id = "d1c5c07ebd804b5b8667bb33ae85efd7";
     const scopes = null;
-    const redirect_uri = "http://localhost:3000/";
+    const redirect_uri = "http://localhost:3000/spotify";
 
     axios.get(
       "https://accounts.spotify.com/authorize" +
