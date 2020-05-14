@@ -4,6 +4,7 @@ import ChampionDbAPI from "../utils/ChampionDbAPI";
 import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
+import "./style.css"
 
 const Champions = () => {
   // Setting our component's initial state
@@ -22,12 +23,11 @@ const Champions = () => {
   };
   return (
     <div className="container">
-      <div className="row">
-        <div className="col"></div>
         {champions.length ? (
           <List>
             {champions.map((champion) => (
-              <ListItem key={champion._id}>
+             
+               <ListItem key={champion._id}>
                 <Link to={"/champions/" + champion._id}>
                   <Card
                     name={champion.name}
@@ -46,7 +46,6 @@ const Champions = () => {
           <h3>No Results to Display</h3>
         )}
       </div>
-    </div>
   );
 };
 
