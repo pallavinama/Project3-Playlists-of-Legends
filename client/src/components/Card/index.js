@@ -2,12 +2,17 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="card text-center">
-      <div className="overflow">
-        <img scr={props.image} />
+    <div className='card text-center'>
+      <div className='overflow'>
+        {/* <img scr={props.image} /> */}
       </div>
       <div className="card-body text-dark">
-        <h4 className="card-title">{props.name}</h4>
+        <h4 className='card-title'>{props.name}</h4>
+        <img
+          src={props.image}
+          alt={props.image}
+          style={{ height: "100px", width: "100px" }}
+        ></img>
       </div>
     </div>
   );
