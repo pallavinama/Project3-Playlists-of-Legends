@@ -1,0 +1,12 @@
+.card {
+    background-color: #343a40;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: gold;
+    padding: 0rem 0rem;
+}
