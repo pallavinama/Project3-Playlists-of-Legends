@@ -12,10 +12,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <WelcomeCard />
-      <br/>
-      <br/>
-      <br/>
+      <Route exact path ="/" component={LoginButton}/>
       <Route exact path="/champions" component={Champions} />
       <Route exact path="/champions/:id" component={Search} />
       <Route exact path="/spotify" render={routeProps => (<LoggedIn {...routeProps}/>)}/>
