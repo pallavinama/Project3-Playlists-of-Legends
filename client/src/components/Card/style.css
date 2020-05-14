@@ -1,12 +1,27 @@
 .card {
     background-color: #343a40;
+    outline-color: gold;
 }
-
+.card-header{
+    text-align: center;
+}
 .card-title {
-    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    font-weight: 900;
 }
 
 .list-group-item {
     background-color: gold;
     padding: 0rem 0rem;
+}
+.card-footer{
+    color: gold;
+    text-align: center;
+}
+.card-text{
+    font-weight: bolder;
+    color: mediumvioletred;
+    
 }
