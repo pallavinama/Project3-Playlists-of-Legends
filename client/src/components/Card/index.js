@@ -13,7 +13,8 @@ const Card = (props) => {
           src={props.image}
           alt={props.image}
           style={{ height: "100px", width: "100px" }}
-        ></img>
+       ></img>
+       {/* <h4 className='card-title'>{props.title}</h4>  */}
       </div>
     </div>
   );
