@@ -30,6 +30,7 @@ class Champions extends React.Component {
     console.log("chamipions in "+this.state.champions.length);    
     return(      
       <div className="container">
+        <SearchBar></SearchBar>
       <div className="row">
         <div className="col"></div>
         {this.state.champions.length ? (
