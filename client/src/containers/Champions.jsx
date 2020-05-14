@@ -23,12 +23,11 @@ const Champions = () => {
   };
   return (
     <div className="container">
-      <div className="row">
-        <div className="col"></div>
         {champions.length ? (
           <List>
             {champions.map((champion) => (
-              <ListItem key={champion._id}>
+             
+               <ListItem key={champion._id}>
                 <Link to={"/champions/" + champion._id}>
                   <Card
                     name={champion.name}
@@ -47,7 +46,6 @@ const Champions = () => {
           <h3>No Results to Display</h3>
         )}
       </div>
-    </div>
   );
 };
 

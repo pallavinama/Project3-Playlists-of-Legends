@@ -2,23 +2,18 @@ import React from "react";
 
 const Card = (props) => {
   return (
-//     <div>
-//       <div className="card" style="width: 18rem;">
-//         <a href="">
-//           <img
-//             className="card-img-top"
-//             src={props.image}
-//             alt="Champion Img"
-//           ></img>
-//         </a>
-//         <div className="card-body">
-//           <p className="card-text">{props.name}</p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-<div className="card">
+    <div className='card text-center'>
+      <div className='overflow'>
+        <img scr={props.image} />
+      </div>
+      <div className="card-body text-dark">
+        <h4 className='card-title'>{props.name}</h4>
+      </div>
+    </div>
+);
+};
+{
+  /* <div className="card">
   <div className="card-header">
     <div className="row">
       <div className="col-sm-10">
@@ -56,6 +51,7 @@ const Card = (props) => {
   </div>
 </div>
   );
-};
+}; */
+}
 
 export default Card;
