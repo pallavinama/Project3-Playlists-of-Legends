@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 const PORT = process.env.PORT || 3001;
 const app = express();
+const UsersController = require("./controllers/usersController");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -15,6 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
+app.use("/api/users", UsersController);
 app.use(routes);
 
 mongoose.connect(

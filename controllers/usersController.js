@@ -11,7 +11,7 @@ router.put("/:id", (req, res) => {
     // Lookup mongoose update queries.
     // Start by hardcoding UUIDs for champions. 
     // You'll need to look at the $.push method, to push the UUIDs into the User.champions array.
-
+    
   res.json({
     success: true,
     message: "Successfully updated user.",
