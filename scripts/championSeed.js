@@ -9,7 +9,7 @@ mongoose.connect(
   }
 );
 
-let playlistoflegendsSeed = [
+let championSeeds = [
   {
     name: "Aatrox",
     title: "the Darkin Blade",
@@ -54,7 +54,7 @@ let playlistoflegendsSeed = [
 ];
 
 db.Champion.deleteMany({})
-  .then(() => db.Champion.collection.insertMany(playlistoflegendsSeed))
+  .then(() => db.Champion.collection.insertMany(championSeeds))
   .then((data) => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
