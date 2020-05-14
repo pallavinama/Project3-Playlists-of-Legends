@@ -5,6 +5,7 @@ import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import "./style.css"
+import SearchBar from "../components/SearchBar/SearchBar"
 
 const Champions = () => {
   // Setting our component's initial state
@@ -23,6 +24,7 @@ const Champions = () => {
   };
   return (
     <div className="container">
+      <SearchBar></SearchBar>
         {champions.length ? (
           <List>
             {champions.map((champion) => (
