@@ -17,7 +17,7 @@ function loginButton() {
 
   const spotifyLogin = () => {
     const my_client_id = "d1c5c07ebd804b5b8667bb33ae85efd7";
-    const scopes = null;
+    const scopes = "playlist-modify-private";
     const redirect_uri = "http://localhost:3000/spotify";
 
     axios.get(
