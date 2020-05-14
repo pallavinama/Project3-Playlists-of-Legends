@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
-app.use("/api/users", UsersController);
+// app.use("/api/users", UsersController);
 app.use(routes);
 
 mongoose.connect(
