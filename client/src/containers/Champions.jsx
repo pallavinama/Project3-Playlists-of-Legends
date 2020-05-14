@@ -4,7 +4,6 @@ import ChampionDbAPI from "../utils/ChampionDbAPI";
 import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
-import "./style.css";
 
 const Champions = () => {
   // Setting our component's initial state

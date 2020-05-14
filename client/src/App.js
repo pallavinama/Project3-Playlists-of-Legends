@@ -5,6 +5,7 @@ import LoginButton from "./components/LoginButton/loginButton";
 import LoggedIn from "./components/LoggedIn/LoggedIn";
 import Champions from "./containers/Champions";
 import Search from "./containers/Search";
+import "./App.css";
 
 function App() {
   return (
