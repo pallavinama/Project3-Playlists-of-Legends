@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const Card = (props) => {
   return (
@@ -15,7 +16,7 @@ const Card = (props) => {
         ></img>
       </div>
     </div>
-);
+  );
 };
 {
   /* <div className="card">
