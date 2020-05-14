@@ -1,13 +1,34 @@
 import axios from "axios";
 
-const BASEURL = `http://ddragon.leagueoflegends.com/cdn/10.9.1/data/en_US/champion`;
+//const BASE_URL = "http://ddragon.leagueoflegends.com/cdn/10.10.3208608/data/en_US/champion.json";
+const BASE_URL = "https://raw.githubusercontent.com/ngryman/lol-champions/master/champions.json";
 
-// Export an object with "search" methods that search the LoL API for the passed query
 export default {
-  searchAll: function () {
-    return axios.get(BASEURL + `.json`);
+  // Gets all champions
+  getChampions: function () {
+    return axios.get(BASE_URL)
+      .then(function(res){
+        //console.log("res.data "+res.data);
+        console.log("res.data.length "+res.data.length);
+        console.log("res.data.data[0].key "+res.data[0].key);
+        //cResponse.champions = res.data;
+        return res.data;
+
+      })
+      .catch(function(error){
+        console.log("error calling api to get champions "+error);
+      });
   },
-  searchOne: function (character) {
-    return axios.get(BASEURL + `/` + character + `.json`);
+  // Gets the champion with the given id
+  getChampion: function (id) {
+    return axios.get("/api/champions/" + id);
+  },
+  // Deletes the champion with the given id
+  deleteChampion: function (id) {
+    return axios.delete("/api/champions/" + id);
+  },
+  // Saves a champion to the database
+  saveChampion: function (championData) {
+    return axios.post("/api/champions", championData);
   },
 };

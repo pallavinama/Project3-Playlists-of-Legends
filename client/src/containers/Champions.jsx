@@ -1,44 +1,47 @@
-import React, { useState, useEffect } from "react";
-// import ChampionWebAPI from "../utils/ChampionWebAPI";
-import ChampionDbAPI from "../utils/ChampionDbAPI";
+import React from 'react';
+import ChampionWebAPI from "../utils/ChampionWebAPI";
 import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import "./style.css"
 import SearchBar from "../components/SearchBar/SearchBar"
 
-const Champions = () => {
-  // Setting our component's initial state
-  const [champions, setChampions] = useState([]);
+class Champions extends React.Component {
+  state = {
+    "champions": []
+  }
 
-  // Load all champions and store them with setChampions
-  useEffect(() => {
-    loadChampions();
-  }, []);
+  constructor(props){
+    super(props);
+    console.log(this.props);
+    //this.setState({champions: ChampionWebAPI.getChampions()});
+    //this.state = {champions: ChampionWebAPI.getChampions().champs};
+  }
 
-  // Loads all champions and sets them to champions
-  const loadChampions = () => {
-    ChampionDbAPI.getChampions()
-      .then((res) => setChampions(res.data))
-      .catch((err) => console.log(err));
-  };
-  return (
-    <div className="container">
-      <SearchBar></SearchBar>
-        {champions.length ? (
+  componentDidMount(){
+    ChampionWebAPI.getChampions().then(data => {
+      console.log("web api response "+data.length);
+      this.setState({champions: data})
+      console.log("champions "+this.state.champions.length);
+    }); 
+  }
+  
+  render(){
+    console.log("chamipions in "+this.state.champions.length);    
+    return(      
+      <div className="container">
+      <div className="row">
+        <div className="col"></div>
+        {this.state.champions.length ? (
           <List>
-            {champions.map((champion) => (
-             
-               <ListItem key={champion._id}>
-                <Link to={"/champions/" + champion._id}>
+            {this.state.champions.map((champion) => (
+              <ListItem key={champion.key}>
+                <Link to={"/champions/" + champion.key}>
                   <Card
                     name={champion.name}
                     title={champion.title}
-                    role={champion.role}
-                    image={champion.image}
-                    lore={champion.lore}
-                    genre={champion.genre}
-                    key={champion._id}
+                    image={champion.icon}
+                    key={champion.key}
                   />
                 </Link>
               </ListItem>
@@ -48,7 +51,9 @@ const Champions = () => {
           <h3>No Results to Display</h3>
         )}
       </div>
-  );
-};
+    </div>      
+    );
+  }
+}
 
 export default Champions;
