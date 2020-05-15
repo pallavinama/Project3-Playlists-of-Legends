@@ -3,6 +3,8 @@ import ChampionWebAPI from "../utils/ChampionWebAPI";
 import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
+import "./style.css"
+import SearchBar from "../components/SearchBar/SearchBar"
 
 class Champions extends React.Component {
   state = {
@@ -28,6 +30,7 @@ class Champions extends React.Component {
     console.log("chamipions in "+this.state.champions.length);    
     return(      
       <div className="container">
+        <SearchBar></SearchBar>
       <div className="row">
         <div className="col"></div>
         {this.state.champions.length ? (
@@ -37,9 +40,9 @@ class Champions extends React.Component {
                 <Link to={"/champions/" + champion.key}>
                   <Card
                     name={champion.name}
-                    title={champion.title}
+                    // title={champion.title}
                     image={champion.icon}
-                    key={champion.key}
+                    // key={champion.key}
                   />
                 </Link>
               </ListItem>
