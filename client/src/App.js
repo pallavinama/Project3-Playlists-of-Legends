@@ -5,7 +5,7 @@ import LoginButton from "./components/LoginButton/loginButton";
 import LoggedIn from "./components/LoggedIn/LoggedIn";
 import Champions from "./containers/Champions";
 import Search from "./containers/Search";
-import Details from "./containers/Details";
+import Details from "./containers/details";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Route exact path ="/" component={LoginButton}/>
       <Route exact path="/champions" component={Champions} />
-      <Route exact path="/champions/:id" component={Search} />
+      <Route exact path="/champions/:key" component={Details} />
       <Route exact path="/spotify" render={routeProps => (<LoggedIn {...routeProps}/>)}/>
     </Router>
   );
