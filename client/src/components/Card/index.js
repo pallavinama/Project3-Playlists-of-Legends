@@ -7,25 +7,18 @@ const Card = (props) => {
       <div className="card=header">
       <h5 className="card-title">{props.name}</h5>
       </div>
-  <img src={props.image} className="card-img" alt={props.image}
-  style ={{height:"250px", width: "249px"}}/>
-  
-    
-    
-    <p className="card-footer">{props.title}</p>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-    
+      <div className="card-body text-dark">
+        {/* <h4 className='card-title'>{props.name}</h4> */}
+        <img
+        className="card-img"
+          src={props.image}
+          alt={props.image}
+          style={{ height: "100px", width: "100px" }}
+       ></img>
+       {/* <h4 className='card-title'>{props.title}</h4>  */}
+      </div>
+      <p className="card-footer">{props.title}</p>
+    </div>
   );
 };
 {
