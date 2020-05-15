@@ -18,7 +18,7 @@ const Card = (props) => {
     </div>
 );
 };
-{
+
   /* <div className="card">
   <div className="card-header">
     <div className="row">
@@ -58,6 +58,6 @@ const Card = (props) => {
 </div>
   );
 }; */
-}
+
 
 export default Card;
