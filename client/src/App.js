@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import WelcomeCard from "./components/Jumbotron/Jumbotron"
-// import LoggedIn from "./components/LoginButton/loginButton";
 import LoggedIn from "./components/LoggedIn/LoggedIn";
 import Champions from "./containers/Champions";
 import Search from "./containers/Search";

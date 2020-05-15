@@ -19,9 +19,9 @@ const Card = (props) => {
       </div>
       <p className="card-footer">{props.title}</p>
     </div>
-  );
+);
 };
-{
+
 
   /* <div className='card text-center'>
     //   <div className='overflow'>
@@ -78,6 +78,6 @@ const Card = (props) => {
 </div>
   );
 }; */
-}
+
 
 export default Card;
