@@ -3,9 +3,9 @@ import "./style.css";
 
 const Card = (props) => {
   return (
-    <div className='card text-center'>
-      <div className='overflow'>
-        {/* <img scr={props.image} /> */}
+    <div className="card">
+      <div className="card=header">
+      <h5 className="card-title">{props.name}</h5>
       </div>
       <div className="card-body text-dark">
         <h4 className='card-title'>{props.name}</h4>
