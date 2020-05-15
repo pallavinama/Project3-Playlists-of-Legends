@@ -47,15 +47,26 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item">
+
+           <li className="nav-item">
               <a className="nav-link" href="/champions">
                 Champions
               </a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link" href="/champions/:id">
                 Search
               </a>
+            <li>
+
+              <li className="nav-item">  
+              <a className="nav-link" href="/details/:id">
+                Details
+              </a>
+              </li>
+              
+              </li>
             </li>
           </ul>
           <a href={link}>

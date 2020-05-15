@@ -37,9 +37,9 @@ class Champions extends React.Component {
                 <Link to={"/champions/" + champion.key}>
                   <Card
                     name={champion.name}
-                    title={champion.title}
+                    // title={champion.title}
                     image={champion.icon}
-                    key={champion.key}
+                    // key={champion.key}
                   />
                 </Link>
               </ListItem>
