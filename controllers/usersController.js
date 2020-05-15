@@ -1,21 +1,36 @@
-const express = require("express");
-const router = express.Router();
 const db = require("../models");
 
-/**
- * Update Route to add a champion's id to the user's champions array.
- */
-router.put("/:id", (req, res) => {
-    console.log(req.params.id);
-    // TODO: Take in a valid user's UUID (borrow from your seeds)
-    // Lookup mongoose update queries.
-    // Start by hardcoding UUIDs for champions. 
-    // You'll need to look at the $.push method, to push the UUIDs into the User.champions array.
-    
-  res.json({
-    success: true,
-    message: "Successfully updated user.",
-  });
-});
-
-module.exports = router;
+// Defining methods for the championsController
+module.exports = {
+  findAll: function(req, res) {
+    db.User
+      .find(req.query)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  findById: function(req, res) {
+    db.User
+      .findById(req.params.id)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  create: function(req, res) {
+    db.User
+      .create(req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  update: function(req, res) {
+    db.User
+      .findOneAndUpdate({ _id: req.params.id }, req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  remove: function(req, res) {
+    db.User
+      .findById({ _id: req.params.id })
+      .then(dbModel => dbModel.remove())
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  }
+};

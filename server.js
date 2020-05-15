@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 const PORT = process.env.PORT || 3001;
 const app = express();
-const UsersController = require("./controllers/usersController");
+// const AuthController = require("./controllers/authController");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -16,8 +16,8 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
-// app.use("/api/users", UsersController);
 app.use(routes);
+// app.use("/api/auth", AuthController);
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/playlistoflegends",
@@ -27,14 +27,14 @@ mongoose.connect(
   }
 );
 
-const connection = mongoose.connection;
+// const connection = mongoose.connection;
 
-connection.on("connected", () => {
-  console.log("Mongoose connected successfully");
-});
-connection.on("error", (err) => {
-  console.log("Mongoose default connection error: ", err);
-});
+// connection.on("connected", () => {
+//   console.log("Mongoose connected successfully");
+// });
+// connection.on("error", (err) => {
+//   console.log("Mongoose default connection error: ", err);
+// });
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API Server listening on http://localhost:${PORT}`);

@@ -11,15 +11,30 @@ mongoose.connect(
 
 let userSeeds = [
   {
+    username: "jessiecomputes",
+    password: "12345",
     name: "Jessie",
+    age: 25,
+    gender: "female",
+    accessToken: "",
     champions: [],
   },
   {
+    username: "MrMuscles3000",
+    password: "12345",
     name: "Alan",
+    age: 30,
+    gender: "male",
+    accessToken: "",
     champions: [],
   },
   {
+    username: "JohnLoLz",
+    password: "12345",
     name: "John",
+    age: 18,
+    gender: "male",
+    accessToken: "",
     champions: [],
   },
 ];
