@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Input from "../Input";
+import Input from "../../Input";
 
-const Form = ({ error, handleSubmit }) => {
+const SignUpForm = ({ error, handleSubmit }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -63,4 +63,4 @@ const Form = ({ error, handleSubmit }) => {
   );
 };
 
-export default Form;
+export default SignUpForm;

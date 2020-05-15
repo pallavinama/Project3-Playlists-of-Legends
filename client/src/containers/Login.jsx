@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Form from "../components/Form";
+import SignUpForm from "../components/Form/SignUp";
 import jwt from "jsonwebtoken";
 import { Link } from "react-router-dom";
 
@@ -49,7 +49,7 @@ class Login extends Component {
   render() {
     return (
       <>
-        <Form handleSubmit={this.handleSubmit} error={this.state.error} />
+        <SignUpForm handleSubmit={this.handleSubmit} error={this.state.error} />
         <div className="container text-center">
           <div className="row">
             <div className="col">

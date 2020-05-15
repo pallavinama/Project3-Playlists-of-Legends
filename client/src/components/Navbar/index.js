@@ -1,7 +1,9 @@
-// import React, { Fragment } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
 // import axios from "axios";
+import "./style.css";
 
-// const Navbar = () => {
+const NavBar = (props) => {
 //   const my_client_id = "d1c5c07ebd804b5b8667bb33ae85efd7";
 //   const scopes = "playlist-modify-private";
 //   const redirect_uri = "http://localhost:3000/spotify";
@@ -24,17 +26,13 @@
 //       "&redirect_uri=" +
 //       encodeURIComponent(redirect_uri)
 //   );
-
-import React from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
-
-const NavBar = (props) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      
       <a className="navbar-brand" href="/">
         Playlist of Legends
       </a>
+      
       <button
         className="navbar-toggler"
         type="button"
@@ -46,28 +44,23 @@ const NavBar = (props) => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         {props.isLoggedIn ? (
           <>
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link to={`/new-match/${props.userObject.id}`}>
-                  Find New Matches
-                </Link>
-              </li>
-              <li className="nav-item" onClick={props.logOutUser}>
-                <a className="nav-link" href="/">
-                  Sign Out
-                </a>
-              </li>
+            <ul className="nav navbar-nav navbar-right ml-auto">
+              {/* <li className="nav-item">
+                <Link to={`/new-match/${props.userObject.id}`}>Find New Matches</Link>
+              </li> */}
+              <li className="nav-item"><NavLink to={`/new-match/${props.userObject.id}`}>Find New Matches</NavLink></li>
+              <li className="nav-item"><NavLink to={`/user/${props.userObject.id}`}>My Profile</NavLink></li>
+              <li className="nav-item" onClick={props.logOutUser}><a className="nav-link" href="/">Sign Out</a></li>
             </ul>
           </>
         ) : (
           <>
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <Link to="/login">Login</Link>
-              </li>
+            <ul className="nav navbar-nav navbar-right ml-auto">
+              <li className="nav-item"><NavLink to="/login">Login</NavLink></li>
             </ul>
           </>
         )}

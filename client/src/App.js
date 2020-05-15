@@ -1,23 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import jwt from "jsonwebtoken";
-import Login from "./containers/Login";
-import Home from "./containers/Home";
+import PrivateRoute from "./components/App/PrivateRoute";
 import Navbar from "./components/Navbar";
+import Home from "./containers/Home";
 import CompleteProfile from "./containers/CompleteProfile";
 import Dashboard from "./containers/Dashboard";
+import Login from "./containers/Login";
+import Profile from "./containers/Profile";
 import NotFound from "./containers/NotFound";
 import SignUp from "./containers/SignUp";
-import PrivateRoute from "./components/App/PrivateRoute";
-
-import Champions from "./containers/Champions";
-import Search from "./containers/Search";
-
-import WelcomeCard from "./components/Jumbotron/Jumbotron";
-import LoginButton from "./components/LoginButton/loginButton";
-import LoggedIn from "./components/LoggedIn/LoggedIn";
+import jwt from "jsonwebtoken";
 import "./App.css";
+
+// import Champions from "./containers/Champions";
+// import LoginButton from "./components/LoginButton/loginButton";
+// import LoggedIn from "./components/LoggedIn/LoggedIn";
 
 function App() {
   const [userObject, setUserObject] = useState({});
@@ -36,7 +33,7 @@ function App() {
           tokenFromStorage,
           process.env.REACT_APP_SECRET_KEY
         );
-        if (decoded && decoded.email && decoded.id) {
+        if (decoded && decoded.username && decoded.id) {
           setUserObject(decoded);
           setIsLoggedIn(true);
         }
@@ -87,7 +84,8 @@ function App() {
             path="/dashboard/:id"
             render={(props) => <Dashboard {...props} />}
           />
-          <PrivateRoute path="/champions" component={Champions} />
+          <PrivateRoute path="/user" component={Profile} />
+          {/* <PrivateRoute path="/champions" component={Champions} /> */}
           <Route path="*">
             <NotFound />
           </Route>

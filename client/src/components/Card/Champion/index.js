@@ -1,42 +1,29 @@
 import React from "react";
 import "./style.css";
 
-const Card = (props) => {
+const ChampionCard = (props) => {
   return (
     <div className="card">
       <div className="card=header">
-      <h5 className="card-title">{props.name}</h5>
+        <h5 className="card-title">{props.name}</h5>
       </div>
-  <img src={props.image} className="card-img" alt={props.image}
-  style ={{height:"250px", width: "249px"}}/>
-  
-    
-    
-    <p className="card-footer">{props.title}</p>
-  </div>
+      <img
+        src={props.image}
+        className="card-img"
+        alt={props.image}
+        style={{ height: "250px", width: "249px" }}
+      />
 
+      <p className="card-footer">{props.title}</p>
+    </div>
 
-
-
-
-
-
-
-
-
-
-    
-  );
-};
-{
-
-  /* <div className='card text-center'>
+    /* <div className='card text-center'>
     //   <div className='overflow'>
     //     {/* <img scr={props.image} /> */
     //</div>
     //   <div className="card-body text-dark">
     //     <h4 className='card-title'>{props.name}</h4>
-  
+
     //     <img */}
     //       src={props.image}
     //       alt={props.image}
@@ -46,7 +33,7 @@ const Card = (props) => {
     //     <h6 className="card-title-2">{props.title}</h6>
     //   </div>
     // </div>
-  /* <div className="card">
+    /* <div className="card">
   <div className="card-header">
     <div className="row">
       <div className="col-sm-10">
@@ -85,6 +72,7 @@ const Card = (props) => {
 </div>
   );
 }; */
-}
+  );
+};
 
-export default Card;
+export default ChampionCard;

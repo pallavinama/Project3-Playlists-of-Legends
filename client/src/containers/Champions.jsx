@@ -2,7 +2,7 @@ import React from 'react';
 import ChampionWebAPI from "../utils/ChampionWebAPI";
 import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
-import Card from "../components/Card";
+import ChampionCard from "../components/Card/Champion";
 
 class Champions extends React.Component {
   state = {
@@ -35,7 +35,7 @@ class Champions extends React.Component {
             {this.state.champions.map((champion) => (
               <ListItem key={champion.key}>
                 <Link to={"/champions/" + champion.key}>
-                  <Card
+                  <ChampionCard
                     name={champion.name}
                     title={champion.title}
                     image={champion.icon}

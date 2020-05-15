@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Form from "../components/Form";
+import SignUpForm from "../components/Form/SignUp";
 import jwt from "jsonwebtoken";
 
 class SignUp extends Component {
@@ -56,7 +56,7 @@ class SignUp extends Component {
             </div>
           </div>
         </div>
-        <Form handleSubmit={this.handleSubmit} error={this.state.error} />
+        <SignUpForm handleSubmit={this.handleSubmit} error={this.state.error} />
       </>
     );
   }
