@@ -8,17 +8,37 @@ const Card = (props) => {
       <h5 className="card-title">{props.name}</h5>
       </div>
       <div className="card-body text-dark">
-        <h4 className='card-title'>{props.name}</h4>
+        {/* <h4 className='card-title'>{props.name}</h4> */}
         <img
+        className="card-img"
           src={props.image}
           alt={props.image}
           style={{ height: "100px", width: "100px" }}
-        ></img>
+       ></img>
+       {/* <h4 className='card-title'>{props.title}</h4>  */}
       </div>
+      <p className="card-footer">{props.title}</p>
     </div>
 );
 };
 
+
+  /* <div className='card text-center'>
+    //   <div className='overflow'>
+    //     {/* <img scr={props.image} /> */
+    //</div>
+    //   <div className="card-body text-dark">
+    //     <h4 className='card-title'>{props.name}</h4>
+  
+    //     <img */}
+    //       src={props.image}
+    //       alt={props.image}
+    //       style={{ height: "100px", width: "100px" }}
+    //     ></img>
+    //     <hr/>
+    //     <h6 className="card-title-2">{props.title}</h6>
+    //   </div>
+    // </div>
   /* <div className="card">
   <div className="card-header">
     <div className="row">
