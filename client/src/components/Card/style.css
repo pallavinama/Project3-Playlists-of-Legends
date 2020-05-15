@@ -23,5 +23,8 @@
 .card-text{
     font-weight: bolder;
     color: mediumvioletred;
-    
+}
+
+.card-body{
+    text-align: center;
 }
