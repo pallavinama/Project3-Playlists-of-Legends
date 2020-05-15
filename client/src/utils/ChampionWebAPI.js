@@ -20,9 +20,27 @@ export default {
       });
   },
   // Gets the champion with the given id
-  getChampion: function (id) {
-    return axios.get("/api/champions/" + id);
+  getChampion: function (key) {
+    return axios.get(BASE_URL)
+      .then(function(res){
+        let responseElement = {};
+        console.log("input key = "+key);        
+        res.data.forEach(element => {          
+          if (element.key == key){
+            console.log("element matched "+element.name+" "+element.key);
+            responseElement = element;
+          }
+        });
+        return responseElement;
+      })
+      .catch(function(error){
+        console.log("error calling api to get champion "+error);
+      });
   },
+
+
+
+
   // Deletes the champion with the given id
   deleteChampion: function (id) {
     return axios.delete("/api/champions/" + id);
