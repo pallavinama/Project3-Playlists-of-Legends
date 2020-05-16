@@ -23,42 +23,29 @@ function LoggedIn(props) {
       .catch((err) => {
         console.log(err);
       });
-
   }, []);
 
-  // const axiosCall = (authorization_code) => {
-  //   console.log("Auth code: ", authorization_code, "Base64: ", base64);
-  //   var authOptions = {
-  //     url: "https://accounts.spotify.com/api/token",
-  //     method: "post",
-
-  //     headers: {
-  //       Authorization: base64,
-  //       "Content-Type": "application/x-www-form-urlencoded",
-  //     },
-  //     data: {
-  //       grant_type: "authorization_code",
-  //       code: authorization_code,
-  //       redirect_uri: "http://localhost:3000/spotify",
-  //     },
-  //   };
-
-  //   const data = {
-  //     grant_type: "authorization_code",
-  //     code: authorization_code,
-  //     redirect_uri: "http://localhost:3000/spotify",
-  //   };
-
-  //   axios(authOptions)
-  //     .then((response) => {
-  //       console.log(response);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
-
-  return <p>You are now logged in!</p>;
+  return (
+    <div className="row">
+      <div className="col">
+        <div
+          className="card"
+          style={{
+            width: "18rem",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)"
+          }}
+        >
+          <div className="card-body">
+            <h5 className="card-title">
+              You are now logged into your Spotify account!
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default LoggedIn;
