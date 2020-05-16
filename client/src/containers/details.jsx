@@ -32,7 +32,7 @@ class Details extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <SpotifyPlaylist/>
+            <SpotifyPlaylist inputkey={this.state.key}/>
           </div>
           <div className="col">
             {this.state.champion ? (
