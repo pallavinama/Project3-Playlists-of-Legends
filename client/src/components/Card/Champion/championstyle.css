@@ -16,9 +16,14 @@
     background-color: gold;
     padding: 0rem 0rem;
 }
+
 .card-footer{
-    color: gold;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-weight: 900;
+    font-size: x-large;
+    border: transparent;
+
 }
 .card-text{
     font-weight: bolder;

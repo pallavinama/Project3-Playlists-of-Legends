@@ -10,6 +10,11 @@ import Profile from "./containers/Profile";
 import NotFound from "./containers/NotFound";
 import SignUp from "./containers/SignUp";
 import jwt from "jsonwebtoken";
+import WelcomeCard from "./components/Jumbotron/Jumbotron"
+import LoggedIn from "./components/LoggedIn/LoggedIn";
+import Champions from "./containers/Champions";
+import Search from "./containers/Search";
+import Details from "./containers/details";
 import "./App.css";
 
 // import Champions from "./containers/Champions";
@@ -85,12 +90,13 @@ function App() {
             render={(props) => <Dashboard {...props} />}
           />
           <PrivateRoute path="/user" component={Profile} />
-          {/* <PrivateRoute path="/champions" component={Champions} /> */}
+          <PrivateRoute path="/champions" component={Champions} />
+          <PrivateRoute path="/champions/:key" component={Details} />
           <Route path="*">
             <NotFound />
           </Route>
-          {/* <Route exact path ="/" component={LoginButton}/>
-      <Route exact path="/spotify" render={routeProps => (<LoggedIn {...routeProps}/>)}/> */}
+          {/* <Route exact path="/" component={LoginButton}/> */}
+          {/* <Route exact path="/spotify" render={routeProps => (<LoggedIn {...routeProps}/>)}/> */}
         </Switch>
       </Router>
     </>

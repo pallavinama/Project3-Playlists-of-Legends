@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileForm from "../../Form/Profile";
-import "./style.css"
+import "./profilestyle.css";
 
 const ProfileCard = (props) => {
   const centerBlockBackground = {

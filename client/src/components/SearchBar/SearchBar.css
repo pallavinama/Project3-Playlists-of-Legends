@@ -1,0 +1,10 @@
+.form-inline {
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: azure;
+}

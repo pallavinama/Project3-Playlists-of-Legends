@@ -1,323 +1,299 @@
 # Project3-Playlists-of-Legends
-List of champs and genre Aatrox = metal
 
-Ahri = k-pop
+List of champs and genre 
 
-Akali = k-hip hop
+embed code example:
+ <iframe src="https://open.spotify.com/embed/playlist/2DsYfCPWDxZtFzHRj9mO4h" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-Alistar = latin pop
+Aatrox = metal - "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Amumu = blues
+Ahri = k-pop - "https://open.spotify.com/embed/playlist/37i9dQZF1DX14fiWYoe7Oh"
 
-Anivia = R&B
+Akali = k-hip hop - "https://open.spotify.com/embed/playlist/37i9dQZF1DWW46Vfs1oltB"
 
-Annie = nursery rhymes
+Alistar = latin pop - "https://open.spotify.com/embed/playlist/2kKzN3kRYDzBctlaWs7CP2"
 
-Ashe = rap
+Amumu = blues - "https://open.spotify.com/embed/playlist/37i9dQZF1DXd9rSDyQguIk"
 
-Aurelion Sol = space ambient
+Anivia = R&B - "https://open.spotify.com/embed/playlist/37i9dQZF1DX4SBhb3fqCJd"
 
-Azir = pop
+Annie = nursery rhymes - "https://open.spotify.com/embed/playlist/3Dque26tKZMMRIUtjpBXHJ"
 
-Bard = bard
+Ashe = rap - "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Blitzcrank = techno
+Aurelion Sol = space ambient - "https://open.spotify.com/embed/playlist/5MTGyQmulkcK6VjLlZyI0O"
 
-Brand = Pop
+Azir = pop - "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Braum = country
+Bard = bard - "https://open.spotify.com/embed/playlist/6L0JnTTHHQJfcqf8U8WqvQ"
 
-Caitlyn = rap
+Blitzcrank = techno "https://open.spotify.com/embed/playlist/3QEYvCsVXZj8KuzE0bDmcI"
 
-Camille = rock
+Brand = Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Cassiopeia = pop
+Braum = country "https://open.spotify.com/embed/playlist/37i9dQZF1DX1lVhptIYRda"
 
-Cho'Gath = rock
+Caitlyn = rap "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Corki = old school rock
+Camille = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Darius = metal
+Cassiopeia = pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Diana = techno
+Cho'Gath = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Dr. Mundo = Rock
+Corki = old school rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX1spT6G94GFC"
 
-Draven = Metal
+Darius = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Ekko = rap
+Diana = techno "https://open.spotify.com/embed/playlist/3QEYvCsVXZj8KuzE0bDmcI"
 
-Elise = dark minimal techno
+Dr. Mundo = Rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Evelynn = dark minimal techno
+Draven = Metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Ezreal = disco
+Ekko = rap"https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Fiddlesticks = acoustic chill
+Elise = dark minimal techno "https://open.spotify.com/embed/playlist/0Y4FAiSXVLZms2IDy7BdsU"
 
-Fiora = rap francais
+Evelynn = dark minimal techno "https://open.spotify.com/embed/playlist/0Y4FAiSXVLZms2IDy7BdsU"
 
-Fizz = water
+Ezreal = disco "https://open.spotify.com/embed/playlist/37i9dQZF1DX2GKumqRIZ7g"
 
-Galio = sweedish electropop
+Fiddlesticks = acoustic chill "https://open.spotify.com/embed/playlist/37i9dQZF1DWYGZAMYFDM8S"
 
-Gangplank = sea shanties
+Fiora = rap francais "https://open.spotify.com/embed/playlist/4a3RNiNF7hljyo5KcV1cHo"
 
-Garen = rock
+Fizz = water "https://open.spotify.com/embed/playlist/3mjDGZmAWzJP46TM2cJFFo"
 
-Gnar = rock
+Galio = sweedish electropop "https://open.spotify.com/embed/playlist/0tzhiEaqJf7jAyUsfnWapv"
 
-Gragas = reggaton flow
+Gangplank = sea shanties "https://open.spotify.com/embed/playlist/2DsYfCPWDxZtFzHRj9mO4h"
 
-Graves = sea shanties
+Garen = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Hecarim = Soft rock
+Gnar = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Heimerdinger = pop
+Gragas = reggaton flow "https://open.spotify.com/embed/playlist/5UX5ntuv8pbq9Z2kteVNB5"
 
-Illaoi = rock
+Graves = sea shanties "https://open.spotify.com/embed/playlist/2DsYfCPWDxZtFzHRj9mO4h"
 
-Irelia = metal
+Hecarim = Soft rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX6xOPeSOGone
 
-Ivern = country
+Heimerdinger = pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Janna = country
+Illaoi = rock"https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Jarvan IV = Classic rock
+Irelia = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Jax = metal
+Ivern = country "https://open.spotify.com/embed/playlist/37i9dQZF1DX1lVhptIYRda"
 
-Jayce = techno
+Janna = country "https://open.spotify.com/embed/playlist/37i9dQZF1DX1lVhptIYRda"
 
-Jhin = rap
+Jarvan IV = Classic rock "https://open.spotify.com/embed/playlist/5BygwTQ3OrbiwVsQhXFHMz"
 
-Jinx = rock
+Jax = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Kai'Sa = Pop
+Jayce = techno "https://open.spotify.com/embed/playlist/3QEYvCsVXZj8KuzE0bDmcI"
 
-Kalista = rap
+Jhin = rap "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Karma = R&B
+Jinx = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Karthus = metal
+Kai'Sa = Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Kassadin = Pop
+Kalista = rap "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Katarina = dance
+Karma = R&B "https://open.spotify.com/embed/playlist/37i9dQZF1DX4SBhb3fqCJd"
 
-Kayle = dance music
+Karthus = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Kayn = Rock
+Kassadin = Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Kennen = Pop
+Katarina = dance "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
-Kha'Zix = vapor trap
+Kayle = dance music "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
-Kindred = opera
+Kayn = Rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
+ 
+Kennen = Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
 
-Kled = metal
+Kha'Zix = vapor trap "https://open.spotify.com/embed/playlist/7o7kEPpjIe3yRRPbDFJSIR"
 
-Kog'Maw = Dance
+Kindred = opera "https://open.spotify.com/embed/playlist/2PjVPkj4a9kBvQIXaZ6UUt"
 
-LeBlanc = hard rock
+Kled = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Lee Sin = gregorian chants (playlist)
+Kog'Maw = Dance "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
-Leona = Soft rock
+LeBlanc = hard rock "https://open.spotify.com/embed/playlist/5cwIrjOMWTiGCYB5Z9oQix"
 
-Lissandra = opera
+Lee Sin = gregorian chants (playlist) "https://open.spotify.com/embed/playlist/5dEIAWS7FNY5ZKMKPHSQkw"
 
-Lucian = Rap
+Leona = Soft rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX6xOPeSOGone
 
-Lulu = R&B
+Lissandra = opera "https://open.spotify.com/embed/playlist/2PjVPkj4a9kBvQIXaZ6UUt"
 
-Lux = Dance
+Lucian = Rap "https://open.spotify.com/embed/playlist/37i9dQZF1DX0XUsuxWHRQd"
 
-Malphite = Rock
+Lulu = R&B "https://open.spotify.com/embed/playlist/37i9dQZF1DX4SBhb3fqCJd"
 
-Malzahar = Dance
+Lux = Dance "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
-Maokai = country
+Malphite = Rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Master Yi = post-grunge
+Malzahar = Dance "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
-Miss Fortune = electro house
+Maokai = country "https://open.spotify.com/embed/playlist/37i9dQZF1DX1lVhptIYRda"
 
-Mordekaiser = gothic metal
+Master Yi = post-grunge "https://open.spotify.com/embed/playlist/37i9dQZF1DWVwr24yj95lH"
 
-Morgana = gauze pop
+Miss Fortune = electro house "https://open.spotify.com/embed/playlist/317O0e8iWJLClLGDKtieRe" 
 
-Nami = water
+Mordekaiser = gothic metal "https://open.spotify.com/embed/playlist/76PSrknbBdEiQxvoinpYAm"
 
-Nasus = Soft rock
+Morgana = gauze pop "https://open.spotify.com/embed/playlist/4E6S3FTk9Pw4rGquldcIBc"
 
-Nautilus = video game music
+Nami = water "https://open.spotify.com/embed/playlist/3mjDGZmAWzJP46TM2cJFFo"
 
-Neeko = dance punk
+Nasus = Soft rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX6xOPeSOGone
 
-Nidalee = new wave
+Nautilus = video game music "https://open.spotify.com/embed/playlist/7lv2JeRaHu2unEJgENSXoP"
 
-Nocturne = reggaeton
+Neeko = dance punk "https://open.spotify.com/embed/playlist/6c6EDGbcWdOSUvTaaUENyg"
 
-Nunu & Willump = EDM
+Nidalee = new wave "https://open.spotify.com/embed/playlist/6G1YyVYzXjAbZ32bOLx7Em"
 
-Olaf = viking metal
+Nocturne = reggaeton "https://open.spotify.com/embed/playlist/37i9dQZF1DX8SfyqmSFDwe"
 
-Orianna = disco house
+Nunu & Willump = EDM "https://open.spotify.com/embed/playlist/3Di88mvYplBtkDBIzGLiiM"
 
-Ornn = metal
+Olaf = viking metal "https://open.spotify.com/embed/playlist/5zJUWXCt4CSyMovh8kGkqO"
 
-Pantheon = instrumental death metal
+Orianna = disco house "https://open.spotify.com/embed/playlist/3p1B8RM5G6WJH2B558GMpQ"
 
-Poppy = metal
+Ornn = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Pyke = grunge
+Pantheon = instrumental death metal "https://open.spotify.com/embed/playlist/2vivknVOeJD7BUYnnuztrE"
 
-Qiyana = rock
+Poppy = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Quinn = speed metal
+Pyke = grunge "https://open.spotify.com/embed/playlist/37i9dQZF1DX11ghcIxjcjE"
 
-Rakan = deep groove house
+Qiyana = rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWXRqgorJj26U"
 
-Rammus = speed metal
+Quinn = speed metal "https://open.spotify.com/embed/playlist/1REn1DbDB5SwaHTY6Dj53V"
 
-Rek'Sai = lo-fi beats
+Rakan = deep groove house "https://open.spotify.com/embed/playlist/4N8MlfkShNcpyyBjaLbltx" 
 
-Renekton = metal
+Rammus = speed metal "https://open.spotify.com/embed/playlist/1REn1DbDB5SwaHTY6Dj53V"
 
-Rengar = hard rock
+Rek'Sai = lo-fi beats "https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" 
+Renekton = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Riven = stomp and holler
+Rengar = hard rock "https://open.spotify.com/embed/playlist/5cwIrjOMWTiGCYB5Z9oQix"
 
-Rumble = electronic trap
+Riven = stomp and holler "https://open.spotify.com/embed/playlist/37i9dQZF1DX8gLrc0tlHvS"
 
-Ryze = hip hop
+Rumble = electronic trap "https://open.spotify.com/embed/playlist/4Q5I1TYJxp7OWcCjSL91Hj"
 
-Sejuani = alternative rock
+Ryze = hip hop "https://open.spotify.com/embed/playlist/37i9dQZF1DX7Mq3mO5SSDc"
 
-Shaco = funk
+Sejuani = alternative rock "https://open.spotify.com/embed/playlist/6UkcmQf7tYlGKX18IL8cyd"
 
-Shen = Pop edm
+Shaco = funk "https://open.spotify.com/embed/playlist/37i9dQZF1DX6drTZKzZwSo"
 
-Shyvana = melodic rap
+Shen = Pop edm "https://open.spotify.com/embed/playlist/4aUEH3uhbofktrFkXOOaKj"
 
-Singed = melodic rap
+Shyvana = melodic rap "https://open.spotify.com/embed/playlist/7ARx895Fpc4tIVqb10Q2tr"
 
-Sion = metal
+Singed = melodic rap "https://open.spotify.com/embed/playlist/7ARx895Fpc4tIVqb10Q2tr"
 
-Sivir = desert rock
+Sion = metal "https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0"
 
-Skarner = psychedelic rock
+Sivir = desert rock "https://open.spotify.com/embed/playlist/5e8TsnrR4KWy0ueFQdFnd7"
 
-Sona = EDM
+Skarner = psychedelic rock "https://open.spotify.com/embed/playlist/37i9dQZF1DWSDoVybeQisg"
 
-Soraka = country
+Sona = EDM "https://open.spotify.com/embed/playlist/3Di88mvYplBtkDBIzGLiiM"
 
-Swain = modern rock
+Soraka = country "https://open.spotify.com/embed/playlist/37i9dQZF1DX1lVhptIYRda"
 
-Sylas = alt metal
+Swain = modern rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX1helbHcrYM1"
 
-Syndra = electropop
+Sylas = alt metal "https://open.spotify.com/embed/playlist/3hMuAfaMcg9dWAwNTTuvXR"
 
-Tahm Kench = country rock
+Syndra = electropop "https://open.spotify.com/embed/playlist/2a5i2ZtEXGKwVGL16J8N0p"
 
-Taliyah = soft rock
+Tahm Kench = country rock "https://open.spotify.com/embed/playlist/0v4DvG8cBpHGOBOxVuVvgV"
 
-Talon = alt emo
+Taliyah = soft rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX6xOPeSOGone
 
-Taric = Glam Rock
+Talon = alt emo "https://open.spotify.com/embed/playlist/0PRV0xDSm6ynDR0oVGAS1a"
 
-Teemo = electro house
+Taric = Glam Rock "https://open.spotify.com/embed/playlist/3LDsuqXWE1fuMHLUcog9A7"
 
-Thresh = country rock
+Teemo = electro house "https://open.spotify.com/embed/playlist/317O0e8iWJLClLGDKtieRe"
 
-Tristana = power pop
+Thresh = country rock "https://open.spotify.com/embed/playlist/0v4DvG8cBpHGOBOxVuVvgV"
 
-Trundle = garage rock
+Tristana = power pop "https://open.spotify.com/embed/playlist/37i9dQZF1DX5W4wuxak2hE"
 
-Tryndamere = Alt Metal
+Trundle = garage rock "https://open.spotify.com/embed/playlist/37i9dQZF1DXbMYUPb05hjJ"
 
-Twisted Fate = Smooth jazz
+Tryndamere = Alt Metal "https://open.spotify.com/embed/playlist/3hMuAfaMcg9dWAwNTTuvXR"
 
-Twitch = Rap metal
+Twisted Fate = Smooth jazz "https://open.spotify.com/embed/playlist/37i9dQZF1DXdwTUxmGKrdN"
 
-Udyr = Afrobeat
+Twitch = Rap metal "https://open.spotify.com/embed/playlist/6CTIvv7IVwwUE781bmb6mf" 
 
-Urgot = Industrial Metal
+Udyr = Afrobeat "https://open.spotify.com/embed/playlist/4HXMPRVKOAfzoUwws8fqHW"
 
-Varus = Europop
+Urgot = Industrial Metal "https://open.spotify.com/embed/playlist/37i9dQZF1DX29LQDcJ6Xy7"
 
-Vayne = hip hop
+Varus = Europop "https://open.spotify.com/embed/playlist/0gr8wuZtmPIiPLm1v7X0Py" 
 
-Veigar = electro pop
+Vayne = hip hop "https://open.spotify.com/embed/playlist/37i9dQZF1DX7Mq3mO5SSDc"
 
-Vel'Koz = electro pop
+Veigar = electro pop "https://open.spotify.com/embed/playlist/2a5i2ZtEXGKwVGL16J8N0p"
 
-Vi - Punk Rock
+Vel'Koz = electro pop "https://open.spotify.com/embed/playlist/2a5i2ZtEXGKwVGL16J8N0p"
 
-Viktor - Electro-Industrial
+Vi - Punk Rock "https://open.spotify.com/embed/playlist/39sVxPTg7BKwrf2MfgrtcD"
 
-Vladamir - Dark Ambient
+Viktor - Electro-Industrial "https://open.spotify.com/embed/playlist/0ZVLhUadGf0IkCOecGIgtf"
 
-Volibear - Celtic Metal
+Vladamir - Dark Ambient "https://open.spotify.com/embed/playlist/1mhHpC0idew8lgWQkEJnOL"
 
-Warwick = Industrial Metal
+Volibear - Celtic Metal "https://open.spotify.com/embed/playlist/2vtxc6HXhrdMDBtmbnAc9q"
 
-Wukong = Comedy
+Warwick = Industrial Metal "https://open.spotify.com/embed/playlist/37i9dQZF1DX29LQDcJ6Xy7"
 
-Xayah = Pop Punk
+Wukong = Comedy "https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A4PDKZIGNpydaoI7pZuxyh7"
 
-Xerath = Electropunk
+Xayah = Pop Punk "https://open.spotify.com/embed/playlist/37i9dQZF1DXa9wYJr1oMFq"
 
-Xin Zhao = Chinese Rock
+Xerath = Electropunk "https://open.spotify.com/embed/playlist/1KZDrVv1mAvRsXCnrEOlbK"
 
-Yasuo = J-Rock
+Xin Zhao = Chinese Rock "https://open.spotify.com/embed/playlist/3CgsCde2Ol4MYOHqVdU56S"
 
-Yorick = Doom Metal
+Yasuo = J-Rock "https://open.spotify.com/embed/playlist/37i9dQZF1DX6ntWKaOqGAp"
 
-Yuumi = Teen Pop
+Yorick = Doom Metal "https://open.spotify.com/embed/playlist/2U3Th7plQNPh2zgekCyyXm"
 
-Zac = Future House
+Yuumi = Teen Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DX9bAf4c66TGs"
 
-Zed = Anime Rock
+Zac = Future House "https://open.spotify.com/embed/playlist/7DyH8C8HXh5RzYKKEy2BQI"
 
-Ziggs = Industrial Techno
+Zed = Anime Rock "https://open.spotify.com/embed/playlist/7iGccimTeIzPtW2PjsFeVI"
 
-Zilean = EDM / Prog Trance
+Ziggs = Industrial Techno "https://open.spotify.com/embed/playlist/4RM93CShh3QYRKPnHmChSm"
 
-Zoe - Bubblegum Pop
+Zilean = EDM / Prog Trance "https://open.spotify.com/embed/playlist/3Di88mvYplBtkDBIzGLiiM"
 
-Zyra = Dance Pop
+Zoe - Bubblegum Pop "https://open.spotify.com/embed/playlist/0TpyQSkJmYJJ7SGQgGXDBG"
+
+Zyra = Dance Pop "https://open.spotify.com/embed/playlist/37i9dQZF1DX8tZsk68tuDw"
 
 There you go. Enjoy!
 
-Zyra - Dance Pop / R&B / Pop Punk
-Zoe - Bubblegum Pop
-Zilean - EDM / Prog Trance
-Ziggs - Industrial Rock / Industrial Techno
-Zed - J-Rock / Anime
-Zac - Future House
-Yuumi - Teen Pop
-Yorick - Doom Metal
-Yasuo - J-Rock / Traditional Asian / Anime
-Xin Zhao - Chinese Rock / Anime
-Xerath - Electropunk
-Xayah - Pop Punk
-Wukong - Comedy
-Warwick - Industial Metal
-Volibear - Celtic Metal
-Vladamir - Dark Ambient
-Viktor - Electro-Industrial
-Vi - Punk Rock
-Vel'Koz - Spacewave
-Veigar - Dark Wave
-Vayne - Gothic Rock
-Varus - Europop
-Urgot - Industrial Metal
-Udyr - Afrobeat
-Twitch - Acid Trance/House/Rock
-Twitsted Fate - Psychedelic pop
-Tyndamere - Alternative Metal
-Trundle - Garage Rock
-Tristana - Power Pop
-Thresh - Industrial Metal
+
