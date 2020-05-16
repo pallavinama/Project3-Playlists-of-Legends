@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProfileCard from "../components/Card/Profile";
-import { Link } from "react-router-dom";
-import UserDbAPI from "../utils/UserDbAPI";
+// import { Link } from "react-router-dom";
+// import UserDbAPI from "../utils/UserDbAPI";
 
 class Profile extends Component {
   // state = {
@@ -12,13 +12,13 @@ class Profile extends Component {
   //   console.log(this.props);
   // }
 
-  componentDidMount() {
-    UserDbAPI.getUser().then((data) => {
-      console.log("web api response " + data);
-      this.setState({ user: data });
-      console.log("user.username " + this.state.user.username);
-    });
-  }
+  // componentDidMount() {
+  //   UserDbAPI.getUser().then((data) => {
+  //     console.log("web api response " + data);
+  //     this.setState({ user: data });
+  //     console.log("user.username " + this.state.user.username);
+  //   });
+  // }
 
   render() {
     return (
@@ -32,6 +32,7 @@ class Profile extends Component {
             gender={user.gender}
           />
         </Link> */}
+        <ProfileCard />
       </>
     );
   }

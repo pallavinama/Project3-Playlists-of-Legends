@@ -1,6 +1,4 @@
 import React from 'react';
-// import { FiEdit2 } from 'react-icons/fi';
-// import { GiSaveArrow } from 'react-icons/gi';
 
 const ProfileForm = (props) => {
 
@@ -33,9 +31,9 @@ const ProfileForm = (props) => {
                 </input>
             </div>
             
-            {/* <button type="submit" className="btn btn-primary">Save Profile <GiSaveArrow /></button>
+            <button type="submit" className="btn btn-primary">Save Profile</button>
            
-            <button href="/edit" className="btn btn-primary" style={{float: 'right'}}>Edit Profile <FiEdit2 /></button> */}
+            <button href="/edit" className="btn btn-primary" style={{float: 'right'}}>Edit Profile</button>
         </form>
 
     );
