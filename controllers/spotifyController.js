@@ -12,8 +12,6 @@ module.exports = {
 
     const client_id = process.env.REACT_APP_CLIENT_ID;
     const client_secret = process.env.REACT_APP_CLIENT_SECRET;
-    console.log("client id: ", client_id, "client secret: ", client_secret)
-    console.log(typeof client_id);
     const base64 = new Buffer(client_id + ":" + client_secret).toString(
       "base64"
     );
