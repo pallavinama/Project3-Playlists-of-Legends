@@ -30,19 +30,14 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/champions/:id">
-                Search
-              </a>
-            </li>
-
-            <li className="nav-item">
               <a className="nav-link" href="/details/:id">
                 Details
               </a>
             </li>
           </ul>
-          <LoginButton/>
+          
           <form className="form-inline"></form>
+          <LoginButton/>
         </div>
       </nav>
     </Fragment>
