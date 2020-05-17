@@ -8,12 +8,8 @@ export default {
   getChampions: function () {
     return axios.get(BASE_URL)
       .then(function(res){
-        //console.log("res.data "+res.data);
         console.log("res.data.length "+res.data.length);
-        console.log("res.data.data[0].key "+res.data[0].key);
-        //cResponse.champions = res.data;
         return res.data;
-
       })
       .catch(function(error){
         console.log("error calling api to get champions "+error);
