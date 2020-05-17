@@ -1,8 +1,16 @@
-import React, { Fragment } from "react";
+import React, { useEffect, useState, Fragment } from "react";
 import axios from "axios";
 import LoginButton from "../LoginButton/loginButton.jsx";
 
 const Navbar = () => {
+  
+  useEffect(() => {
+    if(localStorage.getItem("isLoggedIn") === true){
+      console.log("You are logged in")
+      var logginDisplay = document.getElementById("loginBtn");
+      logginDisplay.style.display = "none";
+    }
+  });
 
   return (
     <Fragment>
@@ -30,7 +38,7 @@ const Navbar = () => {
             </li>
           </ul>          
           <form className="form-inline"></form>
-          <LoginButton/>
+          <div id="loginBtn"><LoginButton/></div>
         </div>
       </nav>
     </Fragment>

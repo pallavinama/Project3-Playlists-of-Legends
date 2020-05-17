@@ -20,6 +20,7 @@ function loginButton() {
     const scopes = "playlist-modify-private";
     const redirect_uri = "https://rocky-stream-45210.herokuapp.com/spotify";
 
+
     axios.get(
       "https://accounts.spotify.com/authorize" +
         "?response_type=code" +
