@@ -1,5 +1,5 @@
 import React from "react";
-// import Logo from "../images/";
+import Logo from "../images/logo.png";
 
 const Home = () => {
   return (
@@ -10,9 +10,10 @@ const Home = () => {
             <div className="card">
               <div className="card-body">
                 <div className="card-title">
-                  <p>Welcome to Playlists of Legends!</p>
+                  <p>Welcome to</p>
+                  <img src={Logo} alt="Logo" style={{height: "100px"}} />
                 </div>
-                <div className="card-text">
+                <div className="card-text" style={{color: "white"}}>
                   <p>
                     You can use this app to login to your Spotify account, and
                     find playlists matched with your favorite League of Legends
