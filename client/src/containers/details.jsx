@@ -35,7 +35,7 @@ class Details extends React.Component {
           <div className="col-6">
             <SpotifyPlaylist inputkey={this.state.key}/>
           </div>
-          <div className="col">
+          <div className="col-6">
             {this.state.champion ? (
               <ListItem key={this.state.champion.key}>
                 <Card

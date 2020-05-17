@@ -7,12 +7,13 @@ import Champions from "./containers/Champions";
 import Search from "./containers/Search";
 import Details from "./containers/details";
 import "./App.css";
+import Home from "./containers/Home";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Route exact path ="/" component={LoginButton}/> */}
+      <Route exact path ="/" component={Home}/>
       <Route exact path="/champions" component={Champions} />
       <Route exact path="/champions/:key" component={Details} />
       <Route exact path="/spotify" render={routeProps => (<LoggedIn {...routeProps}/>)}/>

@@ -25,6 +25,7 @@ function LoggedIn(props) {
       });
   }, []);
 
+  localStorage.setItem("isLoggedIn", true);
   return (
     <div className="row">
       <div className="col">
@@ -34,7 +35,7 @@ function LoggedIn(props) {
             width: "18rem",
             top: "50%",
             left: "50%",
-            transform: "translate(-50%, -50%)"
+            transform: "translate(-50%, -50%)",
           }}
         >
           <div className="card-body">
