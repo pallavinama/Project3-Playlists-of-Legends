@@ -4,6 +4,7 @@ import { List, ListItem } from "../components/List";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import SpotifyPlaylist from "../components/SpotifyPlaylists";
+import "./style.css"
 
 class Details extends React.Component {
   state = {
@@ -43,13 +44,10 @@ class Details extends React.Component {
                   image={this.state.champion.icon}
                   key={this.state.champion.description}
                 />
-                Champion Description={this.state.champion.description}
+                {this.state.champion.description}
                 <br></br>
                 <br></br>
-                Title={this.state.champion.title}
-                <br></br>
-                <br></br>
-                Tags={this.state.champion.tags}
+                {this.state.champion.tags}
               </ListItem>
             ) : (
               <h3>No Details to Display</h3>

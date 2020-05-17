@@ -16,15 +16,24 @@
     background-color: gold;
     padding: 0rem 0rem;
 }
+
 .card-footer{
     color: gold;
     text-align: center;
 }
+
 .card-text{
     font-weight: bolder;
     color: mediumvioletred;
 }
 
 .card-body{
+    text-align: center;
+}
+
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 100%;
     text-align: center;
 }
