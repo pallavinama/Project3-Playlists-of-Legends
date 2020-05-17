@@ -5,7 +5,7 @@ import WelcomeCard from "./components/Jumbotron/Jumbotron"
 import LoggedIn from "./components/LoggedIn/LoggedIn";
 import Champions from "./containers/Champions";
 import Search from "./containers/Search";
-import Details from "./containers/Details";
+import Details from "./containers/details.jsx";
 import "./App.css";
 
 function App() {
