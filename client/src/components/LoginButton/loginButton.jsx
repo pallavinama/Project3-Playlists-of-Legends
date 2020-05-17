@@ -16,7 +16,7 @@ function loginButton() {
     encodeURIComponent(redirect_uri);
 
   const spotifyLogin = () => {
-    const my_client_id = "d1c5c07ebd804b5b8667bb33ae85efd7";
+    const my_client_id = process.env.REACT_APP_CLIENT_ID;
     const scopes = "playlist-modify-private";
     const redirect_uri = "http://localhost:3000/spotify";
 
@@ -33,7 +33,7 @@ function loginButton() {
   return (
     <>
       <a href={link}>
-        <button>Login with Spotify</button>
+        <button className="btn btn-light">Login with Spotify</button>
       </a>
     </>
   );
