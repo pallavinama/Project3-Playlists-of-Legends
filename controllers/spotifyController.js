@@ -47,7 +47,7 @@ module.exports = {
       var postData = qs.stringify({
         'grant_type': 'authorization_code',
         'code': authorization_code,
-        'redirect_uri': 'http://localhost:3000/spotify',
+        'redirect_uri': 'https://rocky-stream-45210.herokuapp.com/',
         'client_id': client_id,
         'client_secret': client_secret
       });
