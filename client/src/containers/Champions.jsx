@@ -22,36 +22,15 @@ class Champions extends React.Component {
     ChampionWebAPI.getChampions().then(data => {
       console.log("web api response "+data.length);
       this.setState({champions: data})
-      console.log("champions "+this.state.champions.length);
+      //console.log("champions "+this.state.champions.length);
     }); 
   }
   
   render(){
-    console.log("chamipions in "+this.state.champions.length);    
+    //console.log("chamipions in "+this.state.champions.length);    
     return(      
       <div className="container">
-        {/* <SearchBar></SearchBar> */}
-      <div className="row">
-        <div className="col"></div>
-        {this.state.champions.length ? (
-          <List>
-            {this.state.champions.map((champion) => (
-              <ListItem key={champion.key}>
-                <Link to={"/champions/" + champion.key}>
-                  <Card
-                    name={champion.name}
-                    // title={champion.title}
-                    image={champion.icon}
-                    // key={champion.key}
-                  />
-                </Link>
-              </ListItem>
-            ))}
-          </List>
-        ) : (
-          <h3>No Results to Display</h3>
-        )}
-      </div>
+        {<SearchBar></SearchBar>}
     </div>      
     );
   }
