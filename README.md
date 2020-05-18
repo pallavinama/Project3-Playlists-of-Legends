@@ -1,12 +1,12 @@
 # Playlist of Legends
 
-<!-- <gotcha statement> -->
-
-<!-- ![screenshot](./images/<imagename>.png) -->
-
 ## Description
 
-<!-- <description> -->
+Our application is designed to help each individual user find a playlist for the champion they are currently playing on the hit game league of legends and allows them to save that playlist to their spotify account so that they can get in the right headspace for each champion.
+
+![screenshot](Homepage.png)
+
+![screenshot](Championspage.png)
 
 ## Table of Contents
 
